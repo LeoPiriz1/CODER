@@ -226,19 +226,7 @@ body {
 
 
 /* CONTACTO */
-.bannercontact {
-    background-image: url(./medios/recepcion.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 870px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    text-shadow: -5px -3px 3px rgba(34, 29, 29, 1);
-    text-align: center;
-}
+
 
 .formulario {
     display: flex;
@@ -281,115 +269,13 @@ body {
     margin-left: 10px;
 }
 
-.imgw1 {
-    grid-area: img1;
-    border-radius: 25px;
-    padding: 50px;
-}
-
-.imgw2 {
-    grid-area: img2;
-    border-radius: 25px;
-    padding: 50px;
-}
-
-.imgw3 {
-    grid-area: img3;
-    border-radius: 25px;
-    padding: 50px;
-}
-
-.imgw4 {
-    grid-area: img4;
-    border-radius: 25px;
-    padding: 50px;
-}
-
-.textow1 {
-    grid-area: texto1;
-    padding: 50px;
-}
-
-.textow2 {
-    grid-area: texto2;
-    padding: 50px;
-}
-
-.textow3 {
-    grid-area: texto3;
-    padding: 50px;
-}
-
-.textow4 {
-    grid-area: texto4;
-    padding: 50px;
-}
 
 /* CLIENTES */
-.bannerclientes {
-    background-image: url(./medios/clientes.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 870px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    text-shadow: -5px -3px 3px rgba(34, 29, 29, 1);
-    text-align: center;
-}
 
-.gridclientes {
-    width: 95%;
-    display: grid;
-    grid-template-areas:
-        "img1 texto1 texto1"
-        "texto2 texto2 img2"
-        "img3 texto3 texto3"
-        "texto4 texto4 img4";
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 600px 600px 600px;
-    gap: 40px;
-    margin-top: 40px;
-    justify-items: center;
-    align-items: center;
-    margin-bottom: 40px;
-    margin-left: 10px;
-}
 
-.imgc1 {
-    grid-area: img1;
-    border-radius: 25px;
-    padding: 50px;
-}
 
-.imgc2 {
-    grid-area: img2;
-    border-radius: 25px;
-    padding: 50px;
-}
 
-.imgc3 {
-    grid-area: img3;
-    border-radius: 25px;
-    padding: 50px;
-}
 
-.textoc1 {
-    grid-area: texto1;
-    padding: 50px;
-}
-
-.textoc2 {
-    grid-area: texto2;
-    padding: 50px;
-}
-
-.textoc3 {
-    grid-area: texto3;
-    padding: 50px;
-}
 
 /* Estilos para tablet */
 @media screen and (max-width: 768px) {
