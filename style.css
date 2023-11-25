@@ -305,22 +305,19 @@ body {
     }
 }
 
-/* Estilos para moviles */
-@media screen and (max-width: 380px) {
-    body {
-        font-size: 12px;
+/* Estilos para tablet y móviles */
+@media screen and (max-width: 768px) {
+    .formulario {
+        flex-direction: column;
+        align-items: stretch;
+        margin: 15px;
     }
 
-    header,
-    footer {
-        font-size: 16px;
+    .info div {
+        margin-bottom: 15px;
     }
 
-    .header {
-        padding: 10px;
-    }
-
-    .main-content {
-        width: 100%;
+    .mensaje {
+        margin-top: 15px;
     }
 }
