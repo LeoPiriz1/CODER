@@ -1,13 +1,20 @@
+.text-sm {
+    font-family: 'Inconsolata', monospace;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    padding: 55px;
+}
 /* HEADER */
 header {
     display: flex;
-    font-size: 24px;
-    background-color: black;
+    background: linear-gradient(180deg, #000000, #1d1d1d);
+    color: white; 
+    font-size: 16px;
     height: 110px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding-left: 0;
+
 }
 
 .logo {
@@ -35,7 +42,7 @@ a {
 
 nav a {
     padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 nav a:hover {
@@ -53,15 +60,17 @@ nav a:hover {
 }
 
 .colorNav {
-    background-color: black;
+    background-color: transparent;
+    font-size: 20px;
 
 }
 
 /* FOOTER */
 footer {
     display: flex;
-    font-size: 24px;
-    background-color: black;
+    background: linear-gradient(180deg, #2d2d2e, #000000);
+    color: white; 
+    font-size: 16px;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -198,9 +207,15 @@ body {
 
 .display-4 {
     font-size: 100;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 }
 
+.col {
+    text-align: center;
+
+}
 .lead {
     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 }
