@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /* HEADER */
 header {
   display: flex;
@@ -83,7 +83,9 @@ header .logo .vgba {
 /* BANNER */
 /* BODY */
 body {
-  background: linear-gradient(180deg, #5c5c5e, #000000);
+
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(41,41,48,1) 90%);
   color: white;
   font-size: 16px;
 }
@@ -145,35 +147,5 @@ footer ul li a {
 }
 
 /* FOOTER*/
-/* Estilos para tablet */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-  header,
-  footer {
-    font-size: 18px;
-  }
-  .header {
-    padding: 15px;
-  }
-  .main-content {
-    width: 90%;
-  }
-}
-/* Estilos para tablet y móviles */
-@media screen and (max-width: 768px) {
-  .formulario {
-    flex-direction: column;
-    align-items: stretch;
-    margin: 15px;
-  }
-  .info div {
-    margin-bottom: 15px;
-  }
-  .mensaje {
-    margin-top: 15px;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
