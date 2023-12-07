@@ -162,5 +162,42 @@ footer {
   
 /* FOOTER*/
 
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header,
+    footer {
+        font-size: 18px;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .main-content {
+        width: 90%;
+    }
+}
+
+/* Estilos para tablet y móviles */
+@media screen and (max-width: 768px) {
+    .formulario {
+        flex-direction: column;
+        align-items: stretch;
+        margin: 15px;
+    }
+
+    .info div {
+        margin-bottom: 15px;
+    }
+
+    .mensaje {
+        margin-top: 15px;
+    }
+}
+
 
 
