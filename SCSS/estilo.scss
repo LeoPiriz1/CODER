@@ -125,7 +125,26 @@ body {
  /* MAIN */ 
 
  /* MAIN CONTACTO*/ 
+ .formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    border: 3px inset #8c8c8c;
+    border-radius: 8px;
+    padding: 20px;
+    
+    color: white; 
+}
 
+
+.comollegar {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
  /* MAIN CONTACTO*/ 
 
 
