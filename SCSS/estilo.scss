@@ -1,7 +1,7 @@
 /* HEADER */ 
 header {
     display: flex;
-    background: linear-gradient(180deg, #000000, #1d1d1d);
+    background: linear-gradient(180deg, #272727, #000000);
     color: white; 
     font-size: 16px;
     height: 110px;
@@ -82,7 +82,7 @@ header {
 
 /* BODY */ 
 body {
-    background: linear-gradient(180deg, #5c5c5e, #000000);
+    background: radial-gradient(#272727, #000000);
     color: white; 
     font-size: 16px;
 }
@@ -134,7 +134,7 @@ body {
 
 footer {
     display: flex;
-    background: linear-gradient(180deg, #2d2d2e, #000000);
+    background: linear-gradient(180deg, #2c2c2c, #000000);
     justify-content: space-between;
     align-items: center;
     padding: 10px;

@@ -1,8 +1,8 @@
-
+@charset "UTF-8";
 /* HEADER */
 header {
   display: flex;
-  background: linear-gradient(180deg, #000000, #1d1d1d);
+  background: linear-gradient(180deg, #272727, #000000);
   color: white;
   font-size: 16px;
   height: 110px;
@@ -83,9 +83,7 @@ header .logo .vgba {
 /* BANNER */
 /* BODY */
 body {
-
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(41,41,48,1) 90%);
+  background: radial-gradient(#272727, #000000);
   color: white;
   font-size: 16px;
 }
@@ -124,7 +122,7 @@ body {
 /* FOOTER*/
 footer {
   display: flex;
-  background: linear-gradient(180deg, #2d2d2e, #000000);
+  background: linear-gradient(180deg, #2c2c2c, #000000);
   justify-content: space-between;
   align-items: center;
   padding: 10px;
@@ -147,5 +145,35 @@ footer ul li a {
 }
 
 /* FOOTER*/
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  header,
+  footer {
+    font-size: 18px;
+  }
+  .header {
+    padding: 15px;
+  }
+  .main-content {
+    width: 90%;
+  }
+}
+/* Estilos para tablet y móviles */
+@media screen and (max-width: 768px) {
+  .formulario {
+    flex-direction: column;
+    align-items: stretch;
+    margin: 15px;
+  }
+  .info div {
+    margin-bottom: 15px;
+  }
+  .mensaje {
+    margin-top: 15px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
