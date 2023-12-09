@@ -185,7 +185,7 @@ footer ul li a {
   }
 }
 /* Estilos para tablet y móviles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .formulario {
     flex-direction: column;
     align-items: stretch;
